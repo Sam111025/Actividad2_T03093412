@@ -1,0 +1,16 @@
+print("\nEjercicio 3: ¿Cuánto escucho a mi artista favorito")
+print("\nMI ARTISTA FAVORITO\n")
+
+artista = "Alvaro Diaz"
+canciones_por_dia = 15
+duracion_promedio = 3   # minutos por canción
+
+minutos_dia = canciones_por_dia * duracion_promedio
+minutos_año = minutos_dia * 365
+horas_año = minutos_año / 60
+dias_año = horas_año / 24
+
+print(f"Escuchas a {artista} {minutos_dia} minutos al día")
+print(f"Al año son {minutos_año} minutos")
+print(f"Eso equivale a {horas_año:.1f} horas")
+print(f"¡O sea {dias_año:.1f} días completos escuchando a {artista}!\n")
